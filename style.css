@@ -278,6 +278,9 @@ footer section{
     footer h3{
         font-size: 22px;
     }
+    #redes-sociais p{
+        font-size: 21px;
+    }
 }
 
 @media screen and (max-width: 620px) {
