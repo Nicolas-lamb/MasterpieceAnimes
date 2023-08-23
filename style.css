@@ -175,7 +175,7 @@ footer section{
     gap: 15px;
     margin-left: 7%;
     font-size: 21px;
-    width: 40%;
+    width: 45%;
 }
 #instagram{
     margin-top: 10px;
@@ -244,7 +244,7 @@ footer section{
         display: none;
     }
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 920px){
     footer section{
         flex-direction: column;
         align-items: center;
@@ -256,6 +256,12 @@ footer section{
         width: 90%;
         gap: 10px;
     }
+    #temporada img{
+        width: 21%;
+    }
+    #melhores-animes img{
+        width: 21%; 
+    }
 }
 @media screen and (max-width: 660px){
     #background{
@@ -265,6 +271,12 @@ footer section{
     .sinopse{
         width: 80%;
         margin-left: 10%;
+    }
+    footer p{
+        font-size: 15px;
+    }
+    footer h3{
+        font-size: 22px;
     }
 }
 
@@ -309,6 +321,7 @@ footer section{
         margin-right: 5%;
     }
     
+    
 
 }
 @media screen and (max-width: 535px) {
@@ -323,6 +336,14 @@ footer section{
     }
     #melhores-animes h2{
         font-size: 1.7rem;
+    }
+}
+@media  screen and (max-width: 500px) {
+    #temporada img{
+        width: 20%;
+    }
+    #melhores-animes img{
+        width: 20%; 
     }
 }
 @media screen and (max-width: 430px) {
@@ -343,6 +364,11 @@ footer section{
         width: 280px;
     }
     #redes-sociais{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 385px){
+    footer h3{
         font-size: 20px;
     }
 }
