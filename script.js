@@ -106,12 +106,116 @@ function clickImage6(){
         testeframe6.style.display = 'block'
     }
 }
-function clickImage5(){
+function clickImage7(){
     if(testeframe7.style.display == 'block'){
         testeframe7.style.display = 'none'
     }
     else{
         testeframe7.style.display = 'block'
+    }
+}
+function clickImage8(){
+    if(testeframe8.style.display == 'block'){
+        testeframe8.style.display = 'none'
+    }
+    else{
+        testeframe8.style.display = 'block'
+    }
+}
+function clickImage9(){
+    if(testeframe9.style.display == 'block'){
+        testeframe9.style.display = 'none'
+    }
+    else{
+        testeframe9.style.display = 'block'
+    }
+}
+function clickImage10(){
+    if(testeframe10.style.display == 'block'){
+        testeframe10.style.display = 'none'
+    }
+    else{
+        testeframe10.style.display = 'block'
+    }
+}
+function clickImage11(){
+    if(testeframe11.style.display == 'block'){
+        testeframe11.style.display = 'none'
+    }
+    else{
+        testeframe11.style.display = 'block'
+    }
+}
+function clickImage12(){
+    if(testeframe12.style.display == 'block'){
+        testeframe12.style.display = 'none'
+    }
+    else{
+        testeframe12.style.display = 'block'
+    }
+}
+function clickImage13(){
+    if(testeframe13.style.display == 'block'){
+        testeframe13.style.display = 'none'
+    }
+    else{
+        testeframe13.style.display = 'block'
+    }
+}
+function clickImage14(){
+    if(testeframe14.style.display == 'block'){
+        testeframe14.style.display = 'none'
+    }
+    else{
+        testeframe14.style.display = 'block'
+    }
+}
+function clickImage15(){
+        if(testeframe15.style.display == 'block'){
+            testeframe15.style.display = 'none'
+        }
+        else{
+            testeframe15.style.display = 'block'
+        }
+}
+function clickImage16(){
+    if(testeframe16.style.display == 'block'){
+        testeframe16.style.display = 'none'
+    }
+    else{
+        testeframe16.style.display = 'block'
+    }
+}
+function clickImage17(){
+    if(testeframe17.style.display == 'block'){
+        testeframe17.style.display = 'none'
+    }
+    else{
+        testeframe17.style.display = 'block'
+    }
+}
+function clickImage18(){
+    if(testeframe18.style.display == 'block'){
+        testeframe18.style.display = 'none'
+    }
+    else{
+        testeframe18.style.display = 'block'
+    }
+}
+function clickImage19(){
+    if(testeframe19.style.display == 'block'){
+        testeframe19.style.display = 'none'
+    }
+    else{
+        testeframe19.style.display = 'block'
+    }
+}
+function clickImage20(){
+    if(testeframe20.style.display == 'block'){
+        testeframe20.style.display = 'none'
+    }
+    else{
+        testeframe20.style.display = 'block'
     }
 }
 

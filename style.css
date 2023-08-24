@@ -60,6 +60,7 @@ header img{
     background-color: #9DD7E5;
     padding-bottom: 2rem;
     text-align: center;
+    width: 100%;
 }
 #iframe{
     width: 100%;
@@ -130,6 +131,10 @@ header img{
     width: 100vw;
     height: 60vh;
     cursor: pointer;
+}
+#nav-desktop{
+    display: flex;
+    gap: 30px;
 }
 
 
