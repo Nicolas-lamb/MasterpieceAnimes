@@ -39,17 +39,32 @@
         <h1>MasterpieceAnimes</h1>
         <p>Explore o gigantesco mundo dos animes</p>
     </div >
-    <div id="temporada" onclick="trailer()">
+    
+    <div id="temporada">
+        <div class="carousel-container" style="background-color: #9DD7E5;"></div>
         <a href="temp-animes.html"><h2>Animes da temporada de Julho</h2></a>
-        <img id="seta-esquerda" src="./img/seta.png" style="width: 6vw; height: 6vw; margin-bottom: 10%; transform: rotate(180deg); margin-right: 1%;">
-        <img id="zom" src="./img/zom.jpg">
-        <img id="ryza"src="./img/ryza.jpg">
-        <img id="jidou"src="./img/Jidouhanbaiki.jpg">
-        <img id="Jujustu"src="./img/jujutsu.jpg">
-        <img id="seta-direita" src="./img/seta.png" style="width: 6vw; height: 6vw; margin-bottom: 10%; margin-left: 1%;">
+        <!-- <img id="seta-esquerda" src="./img/seta.png" style="width: 6vw; height: 6vw; margin-bottom: 10%; transform: rotate(180deg); margin-right: 1%;"; -->
+        <img  onclick="clickImage1()" src="./img/zom.jpg">
+        <img onclick="clickImage2()" src="./img/ryza.jpg">
+        <img onclick="clickImage3()" src="./img/Jidouhanbaiki.jpg">
+        <img onclick="clickImage4()" src="./img/jujutsu.jpg">
+        <img src="img/dakedo.jpg">
+        <img src="./img/saikyou.jpg">
+        <img src="./img/samuraiX.jpg">
+        <img src="./img/liar.jpg">
+        <img src="./img/nanatsu.jpg">
+        <img src="./img/higeki.jpg">
+        <img onclick="clickImage3()" src="./img/Jidouhanbaiki.jpg">
+        <img onclick="clickImage4()"src="./img/jujutsu.jpg">
+        <button id="prevBtn"><img id="seta-esquerda" src="./img/seta.png" style="width: 6vw; height: 6vw; margin-bottom: 10%; transform: rotate(180deg); margin-right: 1%;"></button>
+        <button id="nextBtn"><img id="seta-direita" src="./img/seta.png" style="width: 6vw; height: 6vw; margin-bottom: 10%; margin-left: 1%;"></button>
     </div>
-    <div id="iframe"></div>
+        <!-- <img id="seta-direita" src="./img/seta.png" style="width: 6vw; height: 6vw; margin-bottom: 10%; margin-left: 1%;"> -->
+    </div>
+    
     <div id="melhores-animes">
+        <iframe id="testeframe1" width="560" height="315"  src="https://www.youtube.com/embed/2VvZIEXmltw?si=EsSFHT2Fw4ueGmOK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe id="testeframe2" width="560" height="315"  src="https://www.youtube.com/embed/u2af09H4WqQ?si=99TeZgrIAA0ZCFsF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <a href="melhores_animes.html"><h2>Top 10 melhores animes</h2></a>
         <img id="seta-esquerda" src="./img/seta.png" style="width: 6vw; height: 6vw; margin-bottom: 10%; transform: rotate(180deg); margin-right: 1%;">
         <img src="./img/oddtaxi.jpg">
@@ -72,6 +87,8 @@
         </section>
         <p style="text-align: center; padding: 10px; margin: 0px;">Copyright 2023&copy Todos os direitos reservados a MasterPiece Animes</p>
     </footer>
+    
     <script src="script.js"></script>
 </body>
+
 </html>
