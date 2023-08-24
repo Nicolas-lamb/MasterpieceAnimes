@@ -16,33 +16,39 @@
             <a href="melhores_animes.html">Melhores Animes</a>
             <a href="temp-animes.html">Temporada de animes</a>
         </nav>
-        <div id="nav-toggle">
-            <div id="nav-icon" alt="menu">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <nav id="nav-cel">
-                <ul><a href="index.html">Home</a></ul>
-                <ul><a href="melhores_animes.html">Melhores Animes</a></ul>
-                <ul><a href="temp-animes.html">Temporada de animes</a></ul>
-            </nav>
+        <div class="menu" onclick="clickMenu()" id="menu" style="float: right; font-size: 30px;  color: rgb(255, 255, 255); cursor: pointer;     transform: rotate(90deg);
+        ">
+            |||
         </div>
+        <nav class="teste" id="teste" style="display: none;">
+            <ul>
+                <li class="first" type="none">
+                    <a href="index.html">Home</a>
+                </li>
+                <li type="none">
+                    <a href="melhores_animes.html">Melhores Animes</a>
+                </li>
+                <li type="none">
+                    <a href="temp-animes.html">Temporada de animes</a></li>
+                </li>
+            </ul>
+        </nav>
+
     </header>
     <div id="background-home">
         <h1>MasterpieceAnimes</h1>
         <p>Explore o gigantesco mundo dos animes</p>
-    </div>
-    <div id="temporada">
+    </div >
+    <div id="temporada" onclick="trailer()">
         <a href="temp-animes.html"><h2>Animes da temporada de Julho</h2></a>
         <img id="seta-esquerda" src="./img/seta.png" style="width: 6vw; height: 6vw; margin-bottom: 10%; transform: rotate(180deg); margin-right: 1%;">
-        <img src="./img/zom.jpg">
-        <img src="./img/ryza.jpg">
-        <img src="./img/Jidouhanbaiki.jpg">
-        <img src="./img/jujutsu.jpg">
+        <img id="zom" src="./img/zom.jpg">
+        <img id="ryza"src="./img/ryza.jpg">
+        <img id="jidou"src="./img/Jidouhanbaiki.jpg">
+        <img id="Jujustu"src="./img/jujutsu.jpg">
         <img id="seta-direita" src="./img/seta.png" style="width: 6vw; height: 6vw; margin-bottom: 10%; margin-left: 1%;">
     </div>
+    <div id="iframe"></div>
     <div id="melhores-animes">
         <a href="melhores_animes.html"><h2>Top 10 melhores animes</h2></a>
         <img id="seta-esquerda" src="./img/seta.png" style="width: 6vw; height: 6vw; margin-bottom: 10%; transform: rotate(180deg); margin-right: 1%;">

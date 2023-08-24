@@ -7,6 +7,7 @@
     <meta name="keywords" content="animes, melhores animes, temporada de animes, MasterpieceAnimes">
     <title>MasterpieceAnimes</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
     <header>
@@ -16,19 +17,24 @@
             <a href="melhores_animes.html">Melhores Animes</a>
             <a href="temp-animes.html">Temporada de animes</a>
         </nav>
-        <div id="nav-toggle">
-            <div id="nav-icon"alt="menu">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <nav id="nav-cel">
-                <ul><a href="index.html">Home</a></ul>
-                <ul><a href="melhores_animes.html">Melhores Animes</a></ul>
-                <ul><a href="temp-animes.html">Temporada de animes</a></ul>
-            </nav>
+        <div class="menu" onclick="clickMenu()" id="menu" style="float: right; font-size: 30px;  color: rgb(255, 255, 255); cursor: pointer;     transform: rotate(90deg);
+        ">
+            |||
         </div>
+        <nav class="teste" id="teste" style="display: none;">
+            <ul>
+                <li class="first" type="none">
+                    <a href="index.html">Home</a>
+                </li>
+                <li type="none">
+                    <a href="melhores_animes.html">Melhores Animes</a>
+                </li>
+                <li type="none">
+                    <a href="temp-animes.html">Temporada de animes</a></li>
+                </li>
+            </ul>
+        </nav>
+
     </header>
     <div id="background">
         <h1><u>ANIMES DA TEMPORADA DE JULHO</u></h1>
@@ -197,5 +203,6 @@
                 </section>
                 <p style="text-align: center; padding: 10px; margin: 0px;">Copyright 2023&copy Todos os direitos reservados a MasterPiece Animes</p>
             </footer>
+     <script src="script.js"></script>
 </body>
 </html>

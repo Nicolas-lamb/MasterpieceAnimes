@@ -1,8 +1,13 @@
-// JavaScript para alternar o menu de navegação móvel
-document.addEventListener("DOMContentLoaded", function() {
-    var navIcon = document.getElementById("nav-icon");
-    var navCel = document.getElementById("nav-cel");
-    navIcon.addEventListener("click", function() {
-        navCel.classList.toggle("active");
-    });
-});
+function clickMenu(){
+    if(teste.style.display == 'block'){
+        teste.style.display = 'none'
+    }
+    else{
+        teste.style.display = 'block'
+    }
+}
+function trailer(){
+    if(temporada.style.display == 'flex' ){
+        iframe.style.display =='flex'
+    }
+}

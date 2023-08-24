@@ -38,7 +38,7 @@ header img{
     color: black;
 }
 
-#nav-cel {
+#nav_cel {
     display: none;
     font-size: 18px;
     list-style: none;
@@ -51,41 +51,62 @@ header img{
     z-index: 1;
 }
 
-#nav-toggle {
+#nav_toggle {
     display: none;
     cursor: pointer;
 }
 
-#nav-icon {
+#nav_icon {
     width: 30px;
     height: 25px;
     position: relative;
+    display: flex;
 }
 
-#nav-icon span {
-    display: block;
+#teste {
     position: absolute;
-    height: 3px;
-    width: 100%;
-    background: white;
-    border-radius: 9px;
+    height: 200px;
+    width: 200px;
+    background-color: #9dd7e5da;
+    border-radius: 3px;
+    top: 75px;
     opacity: 1;
-    left: 0;
+    right: 0px;
     transition: 0.25s ease-in-out;
+    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.473);
 }
+    #teste ul{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
 
-#nav-icon span:nth-child(1) {
-    top: 0px;
-}
+    }
+    .first{
+        margin-top: 4px;
+    }
+    li{
+        margin-top: 20px;
+    }
+   #teste > ul >li > a{
+    font-size: large;
+    font-variant: small-caps;
+    text-transform: capitalize;
+   }
+   #teste > ul >li:hover{
+    font-size: large;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    transform: translate(-10px,0px);
+    transition: .7s;
+   }
+   #teste > ul >li{
+    font-size: large;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    transition: .7s;
+   }
 
-#nav-icon span:nth-child(2),
-#nav-icon span:nth-child(3) {
-    top: 12px;
-}
-
-#nav-icon span:nth-child(4) {
-    top: 24px;
-}
 
 /* Seção de Destaque */
 #background-home {
@@ -110,12 +131,18 @@ header img{
 #background-home p {
     font-size: 30px;
 }
+#iframe{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
 
 /* Seção de Temporada de Animes */
 #temporada {
     background-color: #9DD7E5;
     padding-bottom: 2rem;
     text-align: center;
+    di
 }
 
 #temporada h2 {
@@ -228,20 +255,17 @@ footer section{
         gap: 10px;
         flex-direction: column;
     }
-
+    .menu{
+        display: none;
+    }
 
 /* RESPONSIVIDADE TELA PRINCIPAL, HEADER E CABEÇARIO*/
 @media screen and (max-width: 960px) {
     #nav-desktop {
         display: none;
     }
-
-    #nav-toggle {
+    .menu{
         display: block;
-    }
-
-    #nav-cel {
-        display: none;
     }
 }
 @media screen and (max-width: 920px){
